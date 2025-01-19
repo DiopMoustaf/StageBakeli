@@ -164,7 +164,7 @@ nav.menu ul li .deroulant-menu li a {
     nav.menu ul {
         flex-direction: column;
         position: absolute;
-        left: 20%;
+        left: 45%;
         background-color: #00857a;
         border-radius: 10px;
         margin-top: 20px;
@@ -206,10 +206,14 @@ nav.menu ul li .deroulant-menu li a {
 
     .Contenue h1 {
         font-size: 40px;
+        text-align: center;
     }
 
     .Contenue p {
         font-size: 16px;
+        text-align: center;
+        margin: auto;
+        padding-bottom: 20px;
     }
 
     .Contenue .buttons {
@@ -230,6 +234,7 @@ nav.menu ul li .deroulant-menu li a {
         padding: 10px 20px;
         font-size: 14px;
     }
+    
 }
 
 .menu-resp {
@@ -252,6 +257,7 @@ nav.menu ul li .deroulant-menu li a {
         display: none;
         flex-direction: column;
         text-align: center;
+        
     }
 
     .menu.show {
@@ -271,9 +277,9 @@ nav.menu ul li .deroulant-menu li a {
         text-decoration: none;
         color: white;
         font-weight: bold;
-        max-width: 180px;
+        width: 180px;
         text-align: center;
-        margin-left: 30px;
+        margin: auto;
     }
 }
 
